@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+<<<<<<< HEAD
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -32,6 +33,10 @@ int (*fn)(va_list, char[], int, int, int, int);
 * @fm_t: The function associated.
 */
 typedef struct fmt fmt_t;
+=======
+
+int _putchar(char c);
+>>>>>>> 2ff121adc4878da02f12aa3c63eb5bc02c876b9f
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int
